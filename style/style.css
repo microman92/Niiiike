@@ -1,0 +1,253 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #EBEBEB;
+}
+
+.nav {
+    background: #322E41;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+}
+
+
+
+.nav__list_link a {
+    padding: 23px 22px;
+    display: inline-block;
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.nav__list_link a:hover {
+    background: #FFFFFF;
+    color: #D47300;
+}
+
+.header__content {
+    height: 700px;
+    background: url(../img/header-bg.png)center center / cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__content_title {
+    font-family: 'RB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.header__content_text {
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.span {
+    font-weight: 700;
+    font-family: 'RB';
+}
+
+.main__left {
+    max-width: 540px;
+    padding: 15px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.main__left_title {
+    font-family: 'RB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C2A2A;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.main__left_text {
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9B9B9B;
+}
+
+.main__card {
+    max-width: 255px;
+    padding: 15px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.main__card_title {
+    font-family: 'RB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 6px;
+    color: #2C2A2A;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.main__card_text {
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+
+.main__card img {
+    padding: 21px 7px;
+    background: #FFFFFF;
+    border: 2px solid #D47300;
+    border-radius: 50%;
+}
+
+.main__right {
+    max-width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -37px;
+}
+
+.footer {
+    padding: 40px 0;
+    background: #322E41;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    gap: 10px;
+}
+
+form input {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #9B9B9B;
+}
+
+form textarea {
+    border: none;
+    outline: none;
+    height: 86px;
+    resize: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #9B9B9B;
+}
+
+.btn {
+    padding: 9px 0;
+    background: #544294;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.footer__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__list {
+    width: 235px;
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer__list_link a {
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.footer__list_link a:hover {
+    color: #D57300;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 40px;
+}
